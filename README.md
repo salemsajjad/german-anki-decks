@@ -8,7 +8,9 @@ Free German to English flashcards for [Anki](https://apps.ankiweb.net/), the spa
 - **Full verb tables:** present and simple past for all six persons, plus the Perfekt
 - **A bonus deck for driving lessons and the German driving licence (Führerschein)**
 
-![Sample cards](docs/preview.png)
+<p align="center">
+  <img src="docs/preview.png" width="480" alt="Three sample cards on phone screens: der Tisch, ab·fahren with its verb table, and die Kreuzung from the Führerschein deck">
+</p>
 
 ---
 
