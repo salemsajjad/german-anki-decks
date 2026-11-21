@@ -9,7 +9,7 @@ Free German to English flashcards for [Anki](https://apps.ankiweb.net/), the spa
 - **A bonus deck for driving lessons and the German driving licence (Führerschein)**
 
 <p align="center">
-  <img src="docs/sample-cards.png" width="480" alt="Three sample cards on phone screens: der Tisch, ab·fahren with its verb table, and die Kreuzung from the Führerschein deck">
+  <img src="docs/sample-cards-wide.png" width="100%" alt="Five sample cards on phone screens: der Tisch (A1), ab·fahren with its verb table, das Vorstellungsgespräch (B1), die Nachhaltigkeit (B2) and die Kreuzung from the Führerschein deck">
 </p>
 
 ---
