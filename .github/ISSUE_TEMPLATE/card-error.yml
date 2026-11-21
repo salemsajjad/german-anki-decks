@@ -1,0 +1,62 @@
+name: Card error
+description: Report a wrong translation, article, plural, verb form, example, pronunciation or audio problem
+title: "[Card error] "
+labels: ["card error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping to improve the decks! Please tell me which card it is and what's wrong.
+  - type: dropdown
+    id: deck
+    attributes:
+      label: Deck
+      options:
+        - A1.1
+        - A1.2
+        - A2.1
+        - A2.2
+        - B1.1
+        - B1.2
+        - B2.1
+        - B2.2
+        - Führerschein
+    validations:
+      required: true
+  - type: input
+    id: word
+    attributes:
+      label: German word on the card
+      description: Exactly as it is shown on the front of the card
+      placeholder: "der Tisch"
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      multiple: true
+      options:
+        - English translation
+        - Article (der / die / das) or colour
+        - Plural
+        - Verb table (Präsens, Präteritum or Perfekt)
+        - Example sentence (German)
+        - Example translation (English)
+        - Pronunciation (IPA)
+        - Audio
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What does the card say now, and what should it say? A source (for example Duden or a dictionary link) helps a lot.
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: App and device (optional)
+      placeholder: "AnkiDroid 2.19 on Android, Anki 25.02 on Windows, AnkiMobile on iPhone"

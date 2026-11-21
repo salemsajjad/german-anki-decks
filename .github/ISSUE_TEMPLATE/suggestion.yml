@@ -1,0 +1,24 @@
+name: Suggestion or request
+description: Suggest a missing word, a new topic deck, another translation language, or a design idea
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of suggestion?
+      options:
+        - Missing word or phrase
+        - New topic deck
+        - Translation into another language
+        - Card design or layout
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Your suggestion
+      description: Describe what you would like and why it would help learners.
+    validations:
+      required: true
