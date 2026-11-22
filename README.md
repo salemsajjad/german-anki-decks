@@ -4,12 +4,12 @@ Free German to English flashcards for [Anki](https://apps.ankiweb.net/), the spa
 
 - **4,859 cards** in 9 decks, from A1 (complete beginner) to B2
 - **Audio on every card:** the word and the example sentence, in clear standard German (Hochdeutsch)
-- **Colour-coded articles:** 🔵 **der** is blue, 🔴 **die** is red, 🟢 **das** is green
+- **Colour-coded articles:** 🔵 **der** is blue, 🔴 **die** is red, 🟢 **das** is green, 🟡 plurals are yellow
 - **Full verb tables:** present and simple past for all six persons, plus the Perfekt
 - **A bonus deck for driving lessons and the German driving licence (Führerschein)**
 
 <p align="center">
-  <img src="docs/sample-cards-wide-v2.png" width="100%" alt="Five sample cards on phone screens: der Tisch (A1), ab·fahren with its verb table, das Vorstellungsgespräch (B1), die Nachhaltigkeit (B2) and die Kreuzung from the Führerschein deck">
+  <img src="docs/sample-cards-wide-v3.png" width="100%" alt="Five sample cards on phone screens: der Tisch (A1), ab·fahren with its verb table, das Vorstellungsgespräch (B1), die Nachhaltigkeit (B2) and die Kreuzung from the Führerschein deck">
 </p>
 
 ---
@@ -41,7 +41,7 @@ Each level is split into two halves by how common the words are, so the **.1** d
 ## What's on a card
 
 **Front (German)**
-- The word with its article, coloured by gender: der = blue, die = red, das = green. Nouns that only exist in the plural (*die Eltern*) are purple.
+- The word with its article, coloured by gender: der = blue, die = red, das = green. The plural form (*die Tische*) and nouns that only exist in the plural (*die Eltern*) are yellow.
 - The plural form (*die Tische*)
 - The pronunciation in IPA (*/tɪʃ/*)
 - Audio of the word, which plays automatically. For nouns it says the singular and the plural: *"der Tisch, die Tische"*.
@@ -118,7 +118,7 @@ You can also look at the [existing issues](https://github.com/salemsajjad/german
 
 **Updating:** download the new file and import it again. Cards are matched by an internal ID, so in current versions of Anki the existing cards are updated in place and your review progress is kept.
 
-**Latest update (November 2026):** the article colours now follow the scheme many German courses use: der is blue, die is red and das is green. If you imported an earlier version, import the new files again to get the new colours. Your review progress is kept.
+**Latest update (November 2026):** the article colours now follow the scheme many German courses use: der is blue, die is red, das is green and plurals are yellow. If you imported an earlier version, import the new files again to get the new colours. Your review progress is kept.
 
 If these decks help you, please ⭐ **star this repository** and share it with someone who is learning German.
 
